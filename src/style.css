@@ -1,0 +1,632 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope";
+}
+
+.container {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.organicstore .ogenix {
+  background-color: #305322;
+}
+.organicstore .ogenix .container {
+  margin: 0 auto;
+  max-width: 1252px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  padding: 0 70px 0 60px;
+}
+.organicstore .ogenix .container .social {
+  display: flex;
+  align-items: center;
+}
+.organicstore .ogenix .container .social p {
+  font-family: "Manrope";
+  font-size: 13px;
+  line-height: 1.2em;
+  color: #91A589;
+}
+.organicstore .ogenix .container .social .icon {
+  height: 45px;
+  background-color: #223D17;
+  padding: 10px 34px 9px 34px;
+  line-height: 1;
+}
+.organicstore .ogenix .container .social .icon i {
+  font-size: 13px;
+  margin-right: 8px;
+  color: #fff;
+}
+.organicstore .ogenix .container .items {
+  display: flex;
+}
+.organicstore .ogenix .container .items .item {
+  color: #91A589;
+  font-size: 13px;
+}
+.organicstore .ogenix .container .items .item i {
+  color: #FFBD3C;
+  font-size: 12px;
+  margin: 0 8px;
+}
+.organicstore .shop .container {
+  display: flex;
+  justify-content: space-between;
+}
+.organicstore .shop .container .all {
+  display: flex;
+}
+.organicstore .shop .container .all .logo {
+  background-color: #305322;
+  padding: 15px;
+}
+.organicstore .shop .container .all .logo img {
+  width: 104px;
+  height: 63px;
+}
+.organicstore .shop .container .all .menu {
+  display: flex;
+  align-items: center;
+}
+.organicstore .shop .container .all .menu li {
+  padding: 13px 30px;
+}
+.organicstore .shop .container .all .menu li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7d8978;
+}
+.organicstore .shop .container .search {
+  display: flex;
+  align-items: center;
+}
+
+.healthyfood {
+  background-image: url(https://themesflat.com/ogenixkit/wp-content/uploads/2023/11/bg.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 718px;
+}
+.healthyfood .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.healthyfood .container .content h3 {
+  color: #7d8978;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  padding: 0 0 20px;
+}
+.healthyfood .container .content h4 {
+  font-size: 90px;
+  margin-bottom: 37px;
+  color: #2A491D;
+}
+.healthyfood .container .content .button-group {
+  color: #fff;
+}
+.healthyfood .container .content .button-group .learn {
+  background-color: #FFBD3C;
+  font-size: 14px;
+  padding: 16px 38px 16px 38px;
+  border-width: 0px 0px 0px 0px;
+  margin: 0px 10px 10px 0px;
+}
+.healthyfood .container .content .button-group .shop {
+  padding: 16px 38px 16px 38px;
+  border-width: 0px 0px 0px 0px;
+  margin: 0px 10px 10px 0px;
+  background-color: #50A72C;
+}
+
+.provider {
+  background-image: url(https://themesflat.com/ogenixkit/wp-content/uploads/2023/11/bg.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.provider .container {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+.provider .container .image {
+  width: 456px;
+  height: 656px;
+}
+.provider .container .image img {
+  width: 100%;
+  height: 100%;
+}
+.provider .container .content h2 {
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #50A72C;
+  font-family: "Caveat";
+}
+.provider .container .content h3 {
+  font-size: 45px;
+  line-height: 1.2em;
+  color: #2A491D;
+}
+.provider .container .content .list-item {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+.provider .container .content .list-item .inner {
+  padding: 15px 30px 15px 30px;
+  background-color: #fff;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0px 6px 30px 0px;
+  margin-right: 15px;
+}
+.provider .container .content .list-item .inner span {
+  font-size: 18px;
+  color: #2A491D;
+}
+.provider .container .content .list-item .inner i {
+  color: #FFBD3C;
+}
+.provider .container .content h4 {
+  color: #50A72C;
+  padding-top: 32px;
+  font-size: 18px;
+}
+.provider .container .content p {
+  color: #7d8978;
+  font-size: 16px;
+  padding: 33px 0;
+}
+.provider .container .content .elementordivider {
+  border-bottom: 1px solid #EAEAE2;
+}
+.provider .container .content .widget {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.provider .container .content .widget img {
+  margin-right: 22px;
+  width: 64px;
+  height: 64px;
+}
+.provider .container .content .widget p {
+  font-size: 24px;
+  color: #2A491D;
+  letter-spacing: -0.04em;
+  font-family: "Manrope" sans-serif;
+}
+.provider .container .content button {
+  background-color: #FFBD3C;
+  border: none;
+  border-radius: 25px 25px 25px 25px;
+  padding: 16px 38px 16px 38px;
+  color: #fff;
+}
+
+.customers .container {
+  max-width: 1170px;
+}
+.customers .container h2 {
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #50A72C;
+  font-family: "Caveat";
+  text-align: center;
+}
+.customers .container h3 {
+  text-align: center;
+  font-size: 45px;
+  line-height: 1.2em;
+  color: #2A491D;
+}
+.customers .container .cards {
+  display: flex;
+}
+.customers .container .cards .card {
+  width: 270px;
+}
+.customers .container .cards .card .inner {
+  background-image: url(https://themesflat.com/ogenixkit/wp-content/uploads/2023/11/Base-1.png);
+  background-position: 0% 48%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.customers .container .cards .card .inner .img {
+  width: 180px;
+  height: 180px;
+  position: relative;
+}
+.customers .container .cards .card .inner .img img {
+  position: absolute;
+  left: 25%;
+  border-radius: 100% 100% 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+.customers .container .cards .card .inner .content {
+  padding: 25px 40px 0px 40px;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #eeeeee;
+  position: relative;
+  border-radius: 12px;
+  height: 176px;
+}
+.customers .container .cards .card .inner .content a {
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+  color: #000;
+}
+.customers .container .cards .card .inner .content i {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  background-color: #50A72C;
+  border-radius: 100% 100% 100% 100%;
+  color: #fff;
+  right: 42%;
+  top: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customers .container .allphoto {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.customers .container .allphoto .quality {
+  background-image: url(https://themesflat.com/ogenixkit/wp-content/uploads/2023/11/Base-2.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px 6px 6px 6px;
+  width: 570px;
+  height: 304px;
+  background-color: #2A491D;
+  position: relative;
+}
+.customers .container .allphoto .quality .txt {
+  position: absolute;
+  left: 10%;
+  top: 18%;
+}
+.customers .container .allphoto .quality .txt a {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Caveat";
+}
+.customers .container .allphoto .quality .txt p {
+  font-size: 35px;
+  color: #fff;
+}
+.customers .container .allphoto .quality .txt button {
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  background-color: #FFBD3C;
+  width: 143px;
+  height: 49px;
+  margin-top: 20px;
+  border-radius: 25px 25px 25px 25px;
+}
+.customers .container .allphoto .qualitytwo {
+  background-position: right;
+  background-color: #50A72C;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px 6px 6px 6px;
+  width: 570px;
+  height: 304px;
+  position: relative;
+  background-image: url(https://themesflat.com/ogenixkit/wp-content/uploads/2023/11/Base2-1.png);
+}
+.customers .container .allphoto .qualitytwo .txt {
+  position: absolute;
+  left: 10%;
+  top: 18%;
+}
+.customers .container .allphoto .qualitytwo .txt a {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Caveat";
+}
+.customers .container .allphoto .qualitytwo .txt p {
+  font-size: 35px;
+  color: #fff;
+}
+.customers .container .allphoto .qualitytwo .txt button {
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  background-color: #FFBD3C;
+  width: 143px;
+  height: 49px;
+  margin-top: 20px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.available .container {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+.available .container h2 {
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #50A72C;
+  font-family: "Caveat";
+  text-align: center;
+}
+.available .container h3 {
+  text-align: center;
+  font-size: 45px;
+  line-height: 1.2em;
+  color: #2A491D;
+}
+.available .container .cards {
+  display: flex;
+  padding: 50px 0px 50px 0px;
+  gap: 35px;
+}
+.available .container .cards .card {
+  border: 1px solid #F2F2EC;
+  border-radius: 6px 6px 6px 6px;
+  width: 252px;
+  text-align: center;
+}
+.available .container .cards .card span {
+  font-size: 13px;
+  color: #fff;
+  background-color: #50A72C;
+  width: 53px;
+  height: 31px;
+  border-radius: 6px;
+  margin-left: 12px;
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+}
+.available .container .cards .card .img {
+  width: 252px;
+  height: 259px;
+}
+.available .container .cards .card .img img {
+  width: 100%;
+  height: 100%;
+}
+.available .container .cards .card a {
+  color: #2A491D;
+  font-size: 20px;
+  font-weight: 600;
+  font-weight: 600;
+}
+.available .container .cards .card .price {
+  display: block;
+  font-size: 16px;
+  background-color: #fff;
+  color: gray;
+  margin-left: 82px;
+}
+.available .container .cards .card button {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #50A72C;
+  width: 150px;
+  height: 38px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.farmers .container {
+  max-width: 1170px;
+}
+.farmers .container h2 {
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #50A72C;
+  font-family: "Caveat";
+  text-align: center;
+}
+.farmers .container h3 {
+  text-align: center;
+  font-size: 45px;
+  line-height: 1.2em;
+  color: #2A491D;
+}
+.farmers .container .cards {
+  display: flex;
+  justify-content: space-between;
+}
+.farmers .container .cards .card {
+  margin-top: 45px;
+  width: 370px;
+  background-color: #2A491D;
+  border-radius: 150px 150px 0px 0px;
+  height: 456px;
+  padding: 0px 25px 0px 43px;
+  position: relative;
+  transition: 0.3s;
+}
+.farmers .container .cards .card:hover {
+  background-color: #50A72C;
+}
+.farmers .container .cards .card .person {
+  width: 282px;
+  height: 456px;
+}
+.farmers .container .cards .card .orange {
+  position: absolute;
+  top: 66%;
+  left: 33%;
+  width: 249px;
+  height: 196px;
+  transition: 0.3s;
+}
+.farmers .container .cards .card .orange:hover {
+  transform: scale(0.909);
+}
+.farmers .container .cards .card h5 {
+  font-weight: 800;
+  text-align: center;
+  color: #2A491D;
+  margin-top: 30px;
+  font-size: 24px;
+}
+.farmers .container .cards .card p {
+  font-size: 14px;
+  color: #2A491D;
+  text-align: center;
+}
+
+.healthy .container {
+  max-width: 1423px;
+  padding: 0 5px;
+}
+.healthy .container .cards {
+  display: flex;
+}
+.healthy .container .cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.healthy .container .cards .card .img {
+  width: 325px;
+  height: 356px;
+}
+.healthy .container .cards .card .img img {
+  width: 100%;
+  height: 100%;
+}
+.healthy .container .cards .card .icon i {
+  font-size: 18px;
+  color: #fff;
+  background-color: #FFBD3C;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.healthy .container .cards .card .txt {
+  background-image: url(https://themesflat.com/ogenixkit/wp-content/uploads/2023/11/base-hover.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  width: 295px;
+  position: absolute;
+}
+.healthy .container .cards .card .txt h3 {
+  font-weight: 800;
+  color: #2A491D;
+  margin-top: 30px;
+  font-size: 24px;
+}
+.healthy .container .cards .card .txt span {
+  font-size: 14px;
+  color: #2A491D;
+}
+
+.latest .container {
+  max-width: 1200px;
+  margin-top: 140px;
+}
+.latest .container h2 {
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #50A72C;
+  font-family: "Caveat";
+  text-align: center;
+}
+.latest .container h3 {
+  text-align: center;
+  font-size: 45px;
+  line-height: 1.2em;
+  color: #2A491D;
+}
+.latest .container .cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.latest .container .cards .card {
+  width: 370px;
+  position: relative;
+}
+.latest .container .cards .card .img {
+  width: 370px;
+  height: 318px;
+}
+.latest .container .cards .card .img img {
+  width: 100%;
+  height: 100%;
+}
+.latest .container .cards .card .txt {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 6px 6px 6px 6px;
+  padding: 25px 15px 33px 15px;
+  margin: -100px 15px 0px 15px;
+  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+  width: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.latest .container .cards .card .txt .content {
+  display: flex;
+  text-align: center;
+}
+.latest .container .cards .card .txt .content .post-author {
+  margin-bottom: 15px;
+}
+.latest .container .cards .card .txt .content .post-author i {
+  color: #50A72C;
+  margin-left: 12px;
+}
+.latest .container .cards .card .txt .content .post-author a {
+  font-size: 14px;
+  color: gray;
+}
+.latest .container .cards .card .txt p {
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.latest .container .cards .card .txt p:hover {
+  color: #50A72C;
+}
+.latest .container .cards .card .txt a {
+  color: gray;
+  font-size: 14px;
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
